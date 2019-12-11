@@ -13,7 +13,7 @@ foreach( glob( $config->dir_root."/app/*.php" ) as $filename ){
 
 
 use Includes\Parser\URI as uriparser;
-//thisis atest
+//thisis atest 2
 
 $uriArray = uriparser::parseUri( $_SERVER['REQUEST_URI'] );
 require_once( $config->controller."base.php" );
